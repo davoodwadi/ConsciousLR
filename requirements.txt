@@ -1,0 +1,8 @@
+bqplot
+ipympl
+ipyvolume
+scipy
+voila
+pytorch
+numpy
+matplotlib
