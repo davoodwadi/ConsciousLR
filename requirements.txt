@@ -3,6 +3,6 @@ ipympl
 ipyvolume
 scipy
 voila
-pytorch
+torch
 numpy
 matplotlib
