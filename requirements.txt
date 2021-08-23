@@ -4,3 +4,6 @@ ipywidgets
 ipympl
 ipyvolume
 scipy
+matplotlib
+numpy
+math
