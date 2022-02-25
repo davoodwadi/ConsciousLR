@@ -7,7 +7,7 @@ Vanilla Adam
 
 ![Adam3s](https://user-images.githubusercontent.com/62418145/155633568-75d0a565-985b-4d6c-8aa6-76b0265e4fd4.png)
 
-![](<img src="https://latex.codecogs.com/svg.image?LR&space;=&space;10^{-5}" title="LR = 10^{-5}" />)
+<img src="https://render.githubusercontent.com/render/math?math=LR = 10^{-5}">
 ![Adam5s](https://user-images.githubusercontent.com/62418145/155633678-c056bd53-96a9-4d73-bc01-8074ca383f3c.png)
 
 ![](<img src="https://latex.codecogs.com/svg.image?LR&space;=&space;10^{-5}" title="LR = 10^{-5}" />)
