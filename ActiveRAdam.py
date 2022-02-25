@@ -2,7 +2,7 @@ import math
 import torch
 from torch.optim.optimizer import Optimizer, required
 
-class RAdamConsciousLR(Optimizer):
+class ActiveRAdam(Optimizer):
     r"""Implements AdamW algorithm.
 
     The original Adam algorithm was proposed in `Adam: A Method for Stochastic Optimization`_.
@@ -48,7 +48,7 @@ class RAdamConsciousLR(Optimizer):
         super(RAdamConsciousLR, self).__init__(params, defaults)
 
     def __setstate__(self, state):
-        super(RAdamConsciousLR, self).__setstate__(state)
+        super(ActiveRAdam, self).__setstate__(state)
         for group in self.param_groups:
             group.setdefault('amsgrad', False)
 
@@ -149,28 +149,14 @@ class RAdamConsciousLR(Optimizer):
 #                     p_data_fp32.add_(-step_size, exp_avg)
                     p -= step_size*state['gai']*exp_avg
 
-#                 # Correction
-#                 exp_avgCorr = state['exp_avg']/(1-beta1**state['step'])
-# #                 print('exp_avgCorr',exp_avgCorr)
-#                 exp_avg_sqCorr = state['exp_avg_sq']/(1-beta2**state['step'])
 
-#                 step_size = group['lr'] / bias_correction1
-#                 step_size = group['lr']
-#                 gai = state['gai']
-#                 numer = exp_avg.mul(state['gai'])
-#                 numer = exp_avg * gai
-#                 print(numer, ' equals ', exp_avg, gai, state['gai'])
-#                 p.addcdiv_(numer, denom, value=-step_size)
-#                 p -= step_size*state['gai']*(exp_avgCorr/(exp_avg_sqCorr.sqrt()+group['eps']))
                 # SetLR if i>0
                 if state['step']/group['stepSize'] > 1 and state['step']%group['stepSize']==0:
                     tmp2 = state['gradOld'].clone().cpu()##could be eliminated
                     tmp3 = state['cumm'].clone().cpu()##could be eliminated
                     tmp5 = state['gai'].clone().cpu()##may be the one that needs cloning
-#                     print(f'old {tmp2}, cumm {tmp3}')
-#                     print(state['step'],' is ', state['gai'].item())
+
                     state['gai'] = torch.as_tensor(np.where(tmp2*tmp3<=0, tmp5.mul(group['lrLow']), tmp5.add(group['lrHigh'])),dtype=p.dtype , device=p.device)
-#                     print(state['step'],' is ', state['gai'].item())
 
                 # Resetting the accumulated gradients after each epoch
                 if state['step']%group['stepSize']==0:
