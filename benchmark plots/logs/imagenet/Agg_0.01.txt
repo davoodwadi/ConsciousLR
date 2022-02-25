@@ -1,0 +1,386 @@
+
+The following have been reloaded with a version change:
+  1) python/3.6.10 => python/3.7.9
+
+r0 modules installed successfully: num cpus 4
+r0 master: train/val extracted
+r0 valprep.sh done!
+node: 0 :
+ ['env', 'ILSVRC']
+torchvision imported successfully
+Imports successful!!!
+Starting...
+optimizer: Agg
+lr: 0.01
+batch size: 256
+seed: 0
+num workers: 4, n_gpus: 4
+resnet size: 18
+train transforms: Compose(
+    RandomResizedCrop(size=(224, 224), scale=(0.08, 1.0), ratio=(0.75, 1.3333), interpolation=bilinear)
+    RandomHorizontalFlip(p=0.5)
+    ToTensor()
+    Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])
+)
+stepSize is 5005
+ConsciousLR (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    eps: 1e-08
+    lr: 0.01
+    lrHigh: 2.0
+    lrLow: 0.5
+    stepSize: 5005
+    weight_decay: 0.0
+)
+/localscratch/wadi.17645605.0/env/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:788: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+acc1 = 19.20800018310547, acc5 = 40.27000045776367, train losses = 0.020776044577360153, epoch 0, epochTime: 2175.3492
+/localscratch/wadi.17645605.0/env/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:788: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+acc1 = 30.863998413085938, acc5 = 55.507999420166016, train losses = 0.015044797211885452, epoch 1, epochTime: 2169.2926
+/localscratch/wadi.17645605.0/env/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:788: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+acc1 = 31.85999870300293, acc5 = 57.08599853515625, train losses = 0.013863637112081051, epoch 2, epochTime: 2166.6302
+/localscratch/wadi.17645605.0/env/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:788: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+acc1 = 33.736000061035156, acc5 = 59.279998779296875, train losses = 0.013279718346893787, epoch 3, epochTime: 2171.6895
+/localscratch/wadi.17645605.0/env/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:788: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+acc1 = 37.455997467041016, acc5 = 63.81999969482422, train losses = 0.012808130122721195, epoch 4, epochTime: 2171.0831
+/localscratch/wadi.17645605.0/env/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:788: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+acc1 = 40.19199752807617, acc5 = 66.50799560546875, train losses = 0.01235214527696371, epoch 5, epochTime: 2171.7479
+/localscratch/wadi.17645605.0/env/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:788: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+acc1 = 41.76799774169922, acc5 = 68.0999984741211, train losses = 0.011899201199412346, epoch 6, epochTime: 2178.0091
+/localscratch/wadi.17645605.0/env/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:788: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+acc1 = 43.003997802734375, acc5 = 69.25799560546875, train losses = 0.01153959147632122, epoch 7, epochTime: 2168.9454
+/localscratch/wadi.17645605.0/env/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:788: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+acc1 = 44.141998291015625, acc5 = 70.10599517822266, train losses = 0.011192922480404377, epoch 8, epochTime: 2172.7889
+/localscratch/wadi.17645605.0/env/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:788: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+acc1 = 46.503997802734375, acc5 = 71.98600006103516, train losses = 0.010846279561519623, epoch 9, epochTime: 2176.8013
+/localscratch/wadi.17645605.0/env/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:788: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+acc1 = 47.236000061035156, acc5 = 72.947998046875, train losses = 0.010582346469163895, epoch 10, epochTime: 2166.3793
+/localscratch/wadi.17645605.0/env/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:788: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+acc1 = 48.04399871826172, acc5 = 73.59600067138672, train losses = 0.010354197584092617, epoch 11, epochTime: 2175.1733
+/localscratch/wadi.17645605.0/env/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:788: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+acc1 = 49.604000091552734, acc5 = 74.59199523925781, train losses = 0.010131940245628357, epoch 12, epochTime: 2174.5689
+/localscratch/wadi.17645605.0/env/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:788: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+acc1 = 49.56999969482422, acc5 = 74.81999969482422, train losses = 0.009968411177396774, epoch 13, epochTime: 2168.9882
+/localscratch/wadi.17645605.0/env/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:788: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+acc1 = 50.96799850463867, acc5 = 76.01599884033203, train losses = 0.00979580171406269, epoch 14, epochTime: 2167.5144
+/localscratch/wadi.17645605.0/env/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:788: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+acc1 = 51.13399887084961, acc5 = 76.12200164794922, train losses = 0.009652310982346535, epoch 15, epochTime: 2165.8374
+/localscratch/wadi.17645605.0/env/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:788: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+acc1 = 52.0620002746582, acc5 = 76.68399810791016, train losses = 0.009519651532173157, epoch 16, epochTime: 2176.2519
+/localscratch/wadi.17645605.0/env/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:788: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+acc1 = 52.284000396728516, acc5 = 76.86000061035156, train losses = 0.00941539742052555, epoch 17, epochTime: 2174.0388
+/localscratch/wadi.17645605.0/env/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:788: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+acc1 = 53.75199890136719, acc5 = 78.26799774169922, train losses = 0.009306288324296474, epoch 18, epochTime: 2167.7123
+/localscratch/wadi.17645605.0/env/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:788: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+acc1 = 53.69599914550781, acc5 = 78.11199951171875, train losses = 0.009217587299644947, epoch 19, epochTime: 2171.1432
+/localscratch/wadi.17645605.0/env/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:788: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+acc1 = 53.41999816894531, acc5 = 77.8759994506836, train losses = 0.009146738797426224, epoch 20, epochTime: 2175.7409
+/localscratch/wadi.17645605.0/env/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:788: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+acc1 = 54.51799774169922, acc5 = 78.47799682617188, train losses = 0.009087608195841312, epoch 21, epochTime: 2175.0707
+/localscratch/wadi.17645605.0/env/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:788: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+acc1 = 54.099998474121094, acc5 = 78.44400024414062, train losses = 0.009635363705456257, epoch 22, epochTime: 2176.1873
+/localscratch/wadi.17645605.0/env/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:788: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+acc1 = 54.04800033569336, acc5 = 78.47200012207031, train losses = 0.009039197117090225, epoch 23, epochTime: 2176.6595
+/localscratch/wadi.17645605.0/env/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:788: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+acc1 = 55.05999755859375, acc5 = 79.29999542236328, train losses = 0.008931158110499382, epoch 24, epochTime: 2172.1239
+/localscratch/wadi.17645605.0/env/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:788: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+acc1 = 54.99799728393555, acc5 = 79.27999877929688, train losses = 0.008915326558053493, epoch 25, epochTime: 2168.1774
+/localscratch/wadi.17645605.0/env/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:788: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+acc1 = 55.43000030517578, acc5 = 79.36599731445312, train losses = 0.008812988176941872, epoch 26, epochTime: 2169.4410
+/localscratch/wadi.17645605.0/env/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:788: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+acc1 = 55.534000396728516, acc5 = 79.39799499511719, train losses = 0.008740201592445374, epoch 27, epochTime: 2172.9423
+/localscratch/wadi.17645605.0/env/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:788: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+acc1 = 55.652000427246094, acc5 = 79.72599792480469, train losses = 0.008708114735782146, epoch 28, epochTime: 2176.4312
+/localscratch/wadi.17645605.0/env/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:788: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+acc1 = 55.33599853515625, acc5 = 79.50399780273438, train losses = 0.009161763824522495, epoch 29, epochTime: 2177.2123
+/localscratch/wadi.17645605.0/env/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:788: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+acc1 = 55.90999984741211, acc5 = 79.82799530029297, train losses = 0.008674736134707928, epoch 30, epochTime: 2170.6757
+/localscratch/wadi.17645605.0/env/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:788: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+acc1 = 56.30799865722656, acc5 = 80.24199676513672, train losses = 0.008572161197662354, epoch 31, epochTime: 2170.5828
+/localscratch/wadi.17645605.0/env/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:788: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+acc1 = 56.4379997253418, acc5 = 80.23999786376953, train losses = 0.008932169526815414, epoch 32, epochTime: 2165.7697
+/localscratch/wadi.17645605.0/env/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:788: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+acc1 = 56.77399826049805, acc5 = 80.44400024414062, train losses = 0.008531455881893635, epoch 33, epochTime: 2166.3681
+/localscratch/wadi.17645605.0/env/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:788: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+acc1 = 56.58799743652344, acc5 = 80.35599517822266, train losses = 0.008480980060994625, epoch 34, epochTime: 2165.0790
+/localscratch/wadi.17645605.0/env/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:788: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+acc1 = 55.67599868774414, acc5 = 79.80199432373047, train losses = 0.008755405433475971, epoch 35, epochTime: 2159.0657
+/localscratch/wadi.17645605.0/env/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:788: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+acc1 = 57.18199920654297, acc5 = 80.66600036621094, train losses = 0.008483624085783958, epoch 36, epochTime: 2167.9266
+/localscratch/wadi.17645605.0/env/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:788: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+acc1 = 57.167999267578125, acc5 = 81.01200103759766, train losses = 0.008369769901037216, epoch 37, epochTime: 2167.3440
+/localscratch/wadi.17645605.0/env/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:788: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+acc1 = 57.1359977722168, acc5 = 80.85399627685547, train losses = 0.008393542841076851, epoch 38, epochTime: 2163.8669
+/localscratch/wadi.17645605.0/env/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:788: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+acc1 = 57.189998626708984, acc5 = 80.79000091552734, train losses = 0.008366153575479984, epoch 39, epochTime: 2160.2988
+/localscratch/wadi.17645605.0/env/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:788: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+acc1 = 57.31999969482422, acc5 = 81.1259994506836, train losses = 0.008289091289043427, epoch 40, epochTime: 2165.5833
+/localscratch/wadi.17645605.0/env/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:788: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+acc1 = 57.413997650146484, acc5 = 80.81199645996094, train losses = 0.008265158161520958, epoch 41, epochTime: 2160.8822
+/localscratch/wadi.17645605.0/env/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:788: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+acc1 = 57.944000244140625, acc5 = 81.35399627685547, train losses = 0.008252817206084728, epoch 42, epochTime: 2162.9696
+/localscratch/wadi.17645605.0/env/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:788: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+acc1 = 57.465999603271484, acc5 = 81.13600158691406, train losses = 0.008202324621379375, epoch 43, epochTime: 2165.8786
+/localscratch/wadi.17645605.0/env/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:788: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+acc1 = 57.7859992980957, acc5 = 81.37999725341797, train losses = 0.008185230195522308, epoch 44, epochTime: 2156.0997
+/localscratch/wadi.17645605.0/env/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:788: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+acc1 = 57.6099967956543, acc5 = 81.23799896240234, train losses = 0.008174162358045578, epoch 45, epochTime: 2163.9858
+/localscratch/wadi.17645605.0/env/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:788: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+acc1 = 58.13399887084961, acc5 = 81.53199768066406, train losses = 0.008269242011010647, epoch 46, epochTime: 2163.3987
+/localscratch/wadi.17645605.0/env/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:788: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+acc1 = 57.87199783325195, acc5 = 81.447998046875, train losses = 0.008156243711709976, epoch 47, epochTime: 2168.0667
+/localscratch/wadi.17645605.0/env/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:788: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+acc1 = 57.83199691772461, acc5 = 81.37200164794922, train losses = 0.008133451454341412, epoch 48, epochTime: 2157.8584
+/localscratch/wadi.17645605.0/env/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:788: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+acc1 = 57.79800033569336, acc5 = 81.31599426269531, train losses = 0.008408588357269764, epoch 49, epochTime: 2172.0067
+/localscratch/wadi.17645605.0/env/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:788: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+acc1 = 58.17599868774414, acc5 = 81.54199981689453, train losses = 0.008099481463432312, epoch 50, epochTime: 2170.6080
+/localscratch/wadi.17645605.0/env/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:788: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+acc1 = 58.07600021362305, acc5 = 81.52399444580078, train losses = 0.0080771679058671, epoch 51, epochTime: 2168.8977
+/localscratch/wadi.17645605.0/env/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:788: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+acc1 = 57.65399932861328, acc5 = 81.19999694824219, train losses = 0.008116788230836391, epoch 52, epochTime: 2169.8555
+/localscratch/wadi.17645605.0/env/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:788: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+acc1 = 58.1719970703125, acc5 = 81.43999481201172, train losses = 0.008104987442493439, epoch 53, epochTime: 2166.0871
+/localscratch/wadi.17645605.0/env/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:788: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+acc1 = 58.09199905395508, acc5 = 81.4739990234375, train losses = 0.008087238296866417, epoch 54, epochTime: 2165.3219
+/localscratch/wadi.17645605.0/env/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:788: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+acc1 = 58.231998443603516, acc5 = 81.51799774169922, train losses = 0.008080657571554184, epoch 55, epochTime: 2170.6057
+/localscratch/wadi.17645605.0/env/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:788: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+acc1 = 58.38399887084961, acc5 = 81.68000030517578, train losses = 0.008057167753577232, epoch 56, epochTime: 2177.1000
+/localscratch/wadi.17645605.0/env/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:788: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+acc1 = 55.66600036621094, acc5 = 79.697998046875, train losses = 0.008477455005049706, epoch 57, epochTime: 2171.4070
+/localscratch/wadi.17645605.0/env/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:788: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+acc1 = 58.51799774169922, acc5 = 81.88999938964844, train losses = 0.008255957625806332, epoch 58, epochTime: 2170.1721
+/localscratch/wadi.17645605.0/env/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:788: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+acc1 = 58.5620002746582, acc5 = 81.72599792480469, train losses = 0.007991152815520763, epoch 59, epochTime: 2171.2714
+total time:  130164.9659523964
+/localscratch/wadi.17645605.0/env/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:788: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+acc1 = 58.40999984741211, acc5 = 81.75799560546875, train losses = 0.008049397729337215, epoch 1, epochTime: 2174.3053
+/localscratch/wadi.17645605.0/env/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:788: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+acc1 = 58.955997467041016, acc5 = 82.01599884033203, train losses = 0.008405700325965881, epoch 2, epochTime: 2170.2437
+/localscratch/wadi.17645605.0/env/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:788: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+acc1 = 58.347999572753906, acc5 = 81.56800079345703, train losses = 0.007985824719071388, epoch 3, epochTime: 2174.8092
+/localscratch/wadi.17645605.0/env/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:788: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+acc1 = 58.667999267578125, acc5 = 81.90399932861328, train losses = 0.008047867566347122, epoch 4, epochTime: 2176.1532
+/localscratch/wadi.17645605.0/env/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:788: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+acc1 = 58.53199768066406, acc5 = 81.90599822998047, train losses = 0.007993262261152267, epoch 5, epochTime: 2171.1594
+/localscratch/wadi.17645605.0/env/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:788: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+acc1 = 58.78999710083008, acc5 = 81.91400146484375, train losses = 0.007978231646120548, epoch 6, epochTime: 2182.5401
+/localscratch/wadi.17645605.0/env/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:788: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+acc1 = 58.65199661254883, acc5 = 81.99199676513672, train losses = 0.007963341660797596, epoch 7, epochTime: 2174.8257
+/localscratch/wadi.17645605.0/env/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:788: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+acc1 = 58.805999755859375, acc5 = 81.93199920654297, train losses = 0.007940799929201603, epoch 8, epochTime: 2176.9067
+/localscratch/wadi.17645605.0/env/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:788: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+acc1 = 58.41999816894531, acc5 = 81.60199737548828, train losses = 0.00878201611340046, epoch 9, epochTime: 2171.6236
+/localscratch/wadi.17645605.0/env/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:788: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+acc1 = 58.486000061035156, acc5 = 81.90399932861328, train losses = 0.00800231657922268, epoch 10, epochTime: 2170.1125
+/localscratch/wadi.17645605.0/env/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:788: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+acc1 = 58.757999420166016, acc5 = 82.01200103759766, train losses = 0.007964398711919785, epoch 11, epochTime: 2175.3555
+/localscratch/wadi.17645605.0/env/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:788: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+acc1 = 58.349998474121094, acc5 = 81.99199676513672, train losses = 0.00801028497517109, epoch 12, epochTime: 2165.5585
+/localscratch/wadi.17645605.0/env/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:788: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+acc1 = 58.60599899291992, acc5 = 81.89399719238281, train losses = 0.007988679222762585, epoch 13, epochTime: 2172.1107
+/localscratch/wadi.17645605.0/env/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:788: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+acc1 = 58.8599967956543, acc5 = 81.87200164794922, train losses = 0.007992352358996868, epoch 14, epochTime: 2175.9698
+/localscratch/wadi.17645605.0/env/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:788: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+acc1 = 58.413997650146484, acc5 = 81.6500015258789, train losses = 0.007976420223712921, epoch 15, epochTime: 2171.0441
+/localscratch/wadi.17645605.0/env/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:788: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+acc1 = 58.72599792480469, acc5 = 81.73999786376953, train losses = 0.00796638336032629, epoch 16, epochTime: 2170.8427
+/localscratch/wadi.17645605.0/env/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:788: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+acc1 = 58.90199661254883, acc5 = 81.93000030517578, train losses = 0.007933271117508411, epoch 17, epochTime: 2177.7108
+/localscratch/wadi.17645605.0/env/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:788: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+acc1 = 57.20199966430664, acc5 = 80.69999694824219, train losses = 0.009426516480743885, epoch 18, epochTime: 2174.7555
+/localscratch/wadi.17645605.0/env/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:788: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+acc1 = 58.163997650146484, acc5 = 81.52799987792969, train losses = 0.008236713707447052, epoch 19, epochTime: 2174.8575
+/localscratch/wadi.17645605.0/env/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:788: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+acc1 = 58.84599685668945, acc5 = 81.8479995727539, train losses = 0.007996993139386177, epoch 20, epochTime: 2167.3920
+/localscratch/wadi.17645605.0/env/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:788: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+acc1 = 58.29999923706055, acc5 = 81.45600128173828, train losses = 0.008042777888476849, epoch 21, epochTime: 2170.6139
+/localscratch/wadi.17645605.0/env/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:788: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+acc1 = 57.9119987487793, acc5 = 81.44999694824219, train losses = 0.008012955076992512, epoch 22, epochTime: 2171.7621
+/localscratch/wadi.17645605.0/env/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:788: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+acc1 = 58.709999084472656, acc5 = 81.78399658203125, train losses = 0.007930638268589973, epoch 23, epochTime: 2168.0615
+/localscratch/wadi.17645605.0/env/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:788: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+acc1 = 59.33399963378906, acc5 = 82.05199432373047, train losses = 0.00790909118950367, epoch 24, epochTime: 2169.8001
+/localscratch/wadi.17645605.0/env/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:788: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+acc1 = 59.183998107910156, acc5 = 82.40399932861328, train losses = 0.007871437817811966, epoch 25, epochTime: 2174.3317
+/localscratch/wadi.17645605.0/env/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:788: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+acc1 = 58.43199920654297, acc5 = 81.73400115966797, train losses = 0.00784141942858696, epoch 26, epochTime: 2165.6106
+/localscratch/wadi.17645605.0/env/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:788: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+acc1 = 59.53799819946289, acc5 = 82.40799713134766, train losses = 0.008035428822040558, epoch 27, epochTime: 2173.6887
+/localscratch/wadi.17645605.0/env/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:788: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+acc1 = 59.08599853515625, acc5 = 82.18799591064453, train losses = 0.007796151097863913, epoch 28, epochTime: 2171.9874
+/localscratch/wadi.17645605.0/env/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:788: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+acc1 = 59.20199966430664, acc5 = 82.39799499511719, train losses = 0.007805861532688141, epoch 29, epochTime: 2172.0150
+/localscratch/wadi.17645605.0/env/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:788: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+acc1 = 59.25199890136719, acc5 = 82.21399688720703, train losses = 0.007804878056049347, epoch 30, epochTime: 2168.6394
+/localscratch/wadi.17645605.0/env/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:788: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+acc1 = 59.35599899291992, acc5 = 82.2760009765625, train losses = 0.007796318270266056, epoch 31, epochTime: 2179.2656
+/localscratch/wadi.17645605.0/env/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:788: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+acc1 = 59.279998779296875, acc5 = 82.4219970703125, train losses = 0.007781630381941795, epoch 32, epochTime: 2173.1185
+/localscratch/wadi.17645605.0/env/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:788: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+acc1 = 59.52199935913086, acc5 = 82.45999908447266, train losses = 0.007782507687807083, epoch 33, epochTime: 2174.3286
+/localscratch/wadi.17645605.0/env/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:788: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+acc1 = 59.68000030517578, acc5 = 82.44999694824219, train losses = 0.007754020392894745, epoch 34, epochTime: 2167.8249
+/localscratch/wadi.17645605.0/env/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:788: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+acc1 = 59.97200012207031, acc5 = 82.67399597167969, train losses = 0.00772920623421669, epoch 35, epochTime: 2170.8056
+/localscratch/wadi.17645605.0/env/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:788: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+acc1 = 59.79800033569336, acc5 = 82.47999572753906, train losses = 0.007709652651101351, epoch 36, epochTime: 2170.6113
+/localscratch/wadi.17645605.0/env/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:788: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+acc1 = 60.05999755859375, acc5 = 82.55599975585938, train losses = 0.007692705374211073, epoch 37, epochTime: 2171.2436
+/localscratch/wadi.17645605.0/env/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:788: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+acc1 = 59.459999084472656, acc5 = 82.6199951171875, train losses = 0.007701435592025518, epoch 38, epochTime: 2173.7305
+/localscratch/wadi.17645605.0/env/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:788: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+acc1 = 59.81399917602539, acc5 = 82.5719985961914, train losses = 0.007707730866968632, epoch 39, epochTime: 2168.4811
+/localscratch/wadi.17645605.0/env/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:788: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+acc1 = 59.323997497558594, acc5 = 82.25399780273438, train losses = 0.0076834335923194885, epoch 40, epochTime: 2164.6943
+/localscratch/wadi.17645605.0/env/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:788: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+acc1 = 59.12999725341797, acc5 = 82.28599548339844, train losses = 0.007667216006666422, epoch 41, epochTime: 2177.4460
+/localscratch/wadi.17645605.0/env/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:788: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+acc1 = 60.097999572753906, acc5 = 82.9000015258789, train losses = 0.0076601640321314335, epoch 42, epochTime: 2166.0588
+/localscratch/wadi.17645605.0/env/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:788: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+acc1 = 59.01599884033203, acc5 = 82.0199966430664, train losses = 0.008191830478608608, epoch 43, epochTime: 2176.3760
+/localscratch/wadi.17645605.0/env/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:788: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+acc1 = 59.821998596191406, acc5 = 82.63600158691406, train losses = 0.00778343016281724, epoch 44, epochTime: 2175.8382
+/localscratch/wadi.17645605.0/env/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:788: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+acc1 = 60.055999755859375, acc5 = 82.79399871826172, train losses = 0.007672789040952921, epoch 45, epochTime: 2176.7849
+/localscratch/wadi.17645605.0/env/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:788: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+acc1 = 59.387996673583984, acc5 = 82.20800018310547, train losses = 0.007718195207417011, epoch 46, epochTime: 2168.1884
+/localscratch/wadi.17645605.0/env/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:788: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+acc1 = 59.8859977722168, acc5 = 82.9000015258789, train losses = 0.007749245036393404, epoch 47, epochTime: 2170.2924
+/localscratch/wadi.17645605.0/env/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:788: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+acc1 = 59.37999725341797, acc5 = 82.1500015258789, train losses = 0.007719589862972498, epoch 48, epochTime: 2170.4458
+/localscratch/wadi.17645605.0/env/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:788: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+acc1 = 59.47999954223633, acc5 = 82.39399719238281, train losses = 0.007718084380030632, epoch 49, epochTime: 2168.8175
+/localscratch/wadi.17645605.0/env/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:788: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+acc1 = 59.54800033569336, acc5 = 82.48799896240234, train losses = 0.007863692939281464, epoch 50, epochTime: 2166.2008
+/localscratch/wadi.17645605.0/env/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:788: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+acc1 = 59.70199966430664, acc5 = 82.53799438476562, train losses = 0.007670521270483732, epoch 51, epochTime: 2168.8667
+/localscratch/wadi.17645605.0/env/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:788: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+acc1 = 60.0, acc5 = 82.86599731445312, train losses = 0.007638296578079462, epoch 52, epochTime: 2176.7297
+/localscratch/wadi.17645605.0/env/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:788: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+acc1 = 59.7599983215332, acc5 = 82.56599426269531, train losses = 0.007647254969924688, epoch 53, epochTime: 2176.0968
+/localscratch/wadi.17645605.0/env/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:788: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+acc1 = 60.21399688720703, acc5 = 82.88999938964844, train losses = 0.007642985321581364, epoch 54, epochTime: 2182.5104
+/localscratch/wadi.17645605.0/env/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:788: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+acc1 = 59.986000061035156, acc5 = 82.70399475097656, train losses = 0.007638509385287762, epoch 55, epochTime: 2173.7502
+/localscratch/wadi.17645605.0/env/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:788: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+acc1 = 59.981998443603516, acc5 = 82.60800170898438, train losses = 0.0076167648658156395, epoch 56, epochTime: 2172.0000
+slurmstepd: error: *** JOB 17645605 ON cdr890 CANCELLED AT 2021-10-27T05:52:56 DUE TO TIME LIMIT ***
