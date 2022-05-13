@@ -1,7 +1,7 @@
 # Read the Signs: Towards Invariance to Gradient Descent’s Hyperparameter Values
-Active LR optimizer for AdamW and RAdam
+Active LR optimizer for AdamW, RAdam, SGD with momentum, and Adabelief (ActiveAdamW, ActiveRAdam, ActiveSGD, and ActiveBelief, respectively).
 
-This is the PyTorch implementation of the Active LR optimizer on top of AdamW and RAdam as we proposed it in "Read the Signs: Towards Invariance to Gradient Descent’s Hyperparameter Values" under review in ICML 2022.
+This is the PyTorch implementation of the Active LR optimizer on top of AdamW, RAdam, SGD with momentum, and Adabelief as we proposed and benchmarked in "Read the Signs: Towards Invariance to Gradient Descent’s Hyperparameter Values" under review in ICML 2022.
 
 Vanilla Adam
 LR = 1e-3
